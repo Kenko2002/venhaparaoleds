@@ -1,0 +1,20 @@
+Criar modelo de classe              ->FEITO
+Criar modelo de dados               ->FEITO
+Estruturar o banco de dados MySQL   ->FEITO
+
+Criar funções de CRUD para a entidade Candidato  ->FEITO
+Criar funções de CRUD para a entidade Concurso   ->FEITO
+Criar funções de CRUD para a entidade Profissao  ->FEITO
+
+Criar funções para associar um Candidato a uma profissão    ->FEITO
+Criar funções para associar um Candidato a um Concurso      ->FEITO
+
+Criar script para migrar os dados de candidatos.txt para a base de dados    ->FEITO
+Criar script para migrar os dados de concursos.txt para a base de dados     ->FEITO
+
+Implementar as funções 
+                    BuscarCandidatos()      ->FEITO
+                    BuscarConcursos()       ->FEITO
+
+Tratar erros
+Documentar tudo
