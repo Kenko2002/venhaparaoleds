@@ -14,6 +14,7 @@ Esse projeto tem como objetivo a geração de dois relatórios, sendo eles:
     - Todos os concursos cadastrados no sistema que tem profissão compativel com esse candidato.
 
 Para isso, foram criadas 3 entidades, e 2 entidades de relacionamentos. Sendo elas, respectivamente:
+
     candidato
         -id             (Int)
         -nome           (Text)
@@ -61,7 +62,8 @@ Esse projeto tem como objetivo a geração de dois relatórios, sendo eles:
     - Todos os candidatos cadastrados no sistema que tem profissão compativel com esse concurso.
     - Todos os concursos cadastrados no sistema que tem profissão compativel com esse candidato.
 
-Para isso, foram criadas 3 entidades, e 2 entidades de relacionamentos. Sendo elas, respectivamente:
+Para isso, foram criadas 3 entidades, e 2 entidades de relacionamentos. Sendo elas, respectivamente: 
+
     candidato
         -id             (Int)
         -nome           (Text)
@@ -91,9 +93,9 @@ os registros que normalmente seriam repetidos.
 
 # Documentação de Endpoints:
 Cada uma das três entidades tem endpoints próprios para as suas funções de CRUD, eu criei também dois endpoints para associar as entidades, além disso, eu criei mais quatro endpoints.
-Dois deles são para carregar a base de dados do txt para o banco de dados, e os outros dois são os relatórios que o desafio pede.
+Dois deles são para carregar a base de dados do txt para o banco de dados, e os outros dois são os relatórios que o desafio pede:  
 
-http://localhost/leds/backend/LEDS-Solucao/  
+    http://localhost/leds/backend/LEDS-Solucao/  
     application/  
         candidato/  
             create_candidato.php  
