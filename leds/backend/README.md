@@ -3,11 +3,11 @@
 ![Modelo de Dados](ModeloDeDados.png)
 
 # Diferenciais implementados:
--Tratamento de erros
--Implementação de serviço
--Utilizar banco de dados
--Clean code
--Implementar o padrão de programação da tecnologia escolhida	
+-Tratamento de erros  
+-Implementação de serviço  
+-Utilizar banco de dados  
+-Clean code  
+-Implementar o padrão de programação da tecnologia escolhida	  
 
 # Descrição:
 Esse projeto tem como objetivo a geração de dois relatórios, sendo eles:
