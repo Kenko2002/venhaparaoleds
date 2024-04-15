@@ -13,7 +13,7 @@
     Foi utilizado um banco de dados MySQL hospedado pelo XAMPP.  
 -Clean code  
     Segui tão bem quanto pude os 7 princípios de clean code.  
--Implementar o padrão de programação da tecnologia escolhida	
+-Implementar o padrão de programação da tecnologia escolhida  
     segui as recomendações PSR-1 de codificação em PHP durante a implementação do sistema.  
 
 # Descrição do problema:
