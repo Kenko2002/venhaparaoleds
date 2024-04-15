@@ -4,12 +4,19 @@
 
 # Diferenciais implementados:
 -Tratamento de erros  
+    Devido ao prazo apertado, foi implementado em todos os endpoints porém só testei nos endpoints que geram os relatórios pedidos pelo problema.  
 -Implementação de serviço  
+    Foi implementado um serviço hospedado em localhost:8080, a documentação dos endpoints e JSONs de exemplo estão no final do arquivo.  
+    O Serviço foi estruturado separando a lógica de negócio da lógica de dados.  
+    A lógica de negócio ficando na pasta /application e a logica de dados na pasta /model  
 -Utilizar banco de dados  
+    Foi utilizado um banco de dados MySQL hospedado pelo XAMPP.  
 -Clean code  
--Implementar o padrão de programação da tecnologia escolhida	  
+    Segui tão bem quanto pude os 7 princípios de clean code.  
+-Implementar o padrão de programação da tecnologia escolhida	
+    segui as recomendações PSR-1 de codificação em PHP durante a implementação do sistema.  
 
-# Descrição:
+# Descrição do problema:
 Esse projeto tem como objetivo a geração de dois relatórios, sendo eles:
     - Todos os candidatos cadastrados no sistema que tem profissão compativel com esse concurso.
     - Todos os concursos cadastrados no sistema que tem profissão compativel com esse candidato.
@@ -40,8 +47,8 @@ Para isso, foram criadas 3 entidades, e 2 entidades de relacionamentos. Sendo el
         -id_profissao   (Int)
         -id_concurso    (Int)
 
-Eu decidi fazer a base de dados assim porquê dessa forma é possível economizar muito espaço na tabela profissao, removendo
-os registros que normalmente seriam repetidos.
+Eu decidi fazer a base de dados com mais tabelas de relacionamento do que necessário porquê dessa forma é possível  
+economizar muito espaço na tabela profissao, removendo os registros que normalmente seriam repetidos.
 
 # Documentação de Endpoints:
 Cada uma das três entidades tem endpoints próprios para as suas funções de CRUD, eu criei também dois endpoints para associar as entidades, além disso, eu criei mais quatro endpoints.
