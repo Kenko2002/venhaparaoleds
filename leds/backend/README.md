@@ -19,9 +19,14 @@
 # Descrição do problema:
 Esse projeto tem como objetivo a geração de dois relatórios, sendo eles:
     - Todos os candidatos cadastrados no sistema que tem profissão compativel com esse concurso.
-    - Todos os concursos cadastrados no sistema que tem profissão compativel com esse candidato.
+    - Todos os concursos cadastrados no sistema que tem profissão compativel com esse candidato.  
 
-Para isso, foram criadas 3 entidades, e 2 entidades de relacionamentos. Sendo elas, respectivamente: 
+# Tecnologias escolhidas:
+Devido ao prazo apertado, escolhi a tecnologia que tenho mais domínio para a elaboração do serviço, que é o PHP.  
+Eu gostaria de ter feito um FrontEnd com HTML CSS JS e Bootstrap mas o prazo não permitiu.  
+A base de dados foi elaborada em MySQL, tanto ela quanto o PHP foram hospedados pelo client do XAMPP.  
+
+Para resolver o problema, foram criadas 3 entidades, e 2 entidades de relacionamentos. Sendo elas, respectivamente: 
 
     candidato
         -id             (Int)
